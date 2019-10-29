@@ -10,7 +10,10 @@ $(function() {
     var html = "";
     for (i = 0; i < inputArray.length; i++) {
       html = html + "<li>" + inputArray[i] + "</li>";
+      inputArray.sort();
     };
+
+    // inputArray.sort();
 
     $("ul").html(html);
 
